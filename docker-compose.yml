@@ -5,3 +5,4 @@ services:
       - "5678:5678"
     environment:
       - N8N_BASIC_AUTH_ACTIVE=false
+    restart: unless-stopped
